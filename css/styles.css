@@ -1,0 +1,185 @@
+body {
+    font-family:'微軟正黑體';
+    background-image:  url("../img/bg.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#mainNav{
+    background-color: rgba(41,63,20,0.9);
+    font-weight: 800;
+  }
+
+.page-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+p{
+  font-size: 18px;
+  line-height: 2rem;
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+#cover{
+  width:575px;
+}
+
+.cta {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: rgba(186,205,176, 0.9);
+    color:#4e5d36;
+}
+  
+.cta .cta-inner {
+    position: relative;
+    padding: 3rem;
+    margin: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+  
+.cta .cta-inner:before {
+    border-radius: 0.5rem;
+    content: '';
+    position: absolute;
+    top: -0.5rem;
+    bottom: -0.5rem;
+    left: -0.5rem;
+    right: -0.5rem;
+    border: 0.25rem solid rgba(255, 255, 255, 0.85);
+    z-index: -1;
+}
+
+.footer{
+    background-color: rgba(41,63,20,0.9);
+}
+
+  .menu .menu-item {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  .menu .menu-item .menu-item-caption{
+    font-family: 'Bungee Inline';
+    font-size: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    background-color: rgba(186,205,176, 0.9);
+  }
+  .menu .menu-item .menu-item-caption:hover {
+    opacity: 1;
+  }
+  .menu .menu-item .menu-item-caption .menu-item-caption-content {
+    font-size: 1.5rem;
+  }
+  
+  .menu-modal .menu-modal-title {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+  .menu-modal .close {
+    position: absolute;
+    z-index: 1;
+    right: 1.5rem;
+    top: 1rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #4e5d36;
+    opacity: 1;
+  }
+
+  .close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.5;
+  }
+  .close:hover {
+    color: rgba(78,93,54,0.8);
+    text-decoration: none;
+  }
+
+  .close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus {
+    opacity: 0.75;
+  }
+  
+  button.close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+  }
+  
+  a.close.disabled {
+    pointer-events: none;
+  }
+
+.text-green{
+  color:#4e5d36;
+}
+
+.text-orange{
+  color: #d5a158;
+}
+
+.instruction{
+  list-style: none;
+}
+
+.card{
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.card-img{
+  height:auto;
+}
+.card-text{
+  line-height: 1.5em;
+}
+
+.card-body{
+  color:#4e5d36;
+}
+
+.card-body a{
+  color:#4e5d36;
+  text-decoration: none;
+}
+
+.card-body a:hover{
+  color:#d5a158;
+}
+
+.card-icon{
+  font-size: 30px;
+}
+
+.jumbotron{
+  background-color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  color:#4e5d36;
+}
+
+button:focus,
+button:active:focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button.active.focus{
+    outline: none; 
+    box-shadow: none;   
+}
